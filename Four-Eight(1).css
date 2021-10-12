@@ -1,0 +1,177 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #000;
+    padding: 90px 0;
+
+}
+
+.caixa {
+    text-align: center;
+    position: relative;
+    width: auto;
+ 
+}
+
+body {
+    background: linear-gradient(#ffffff, #888888);
+}
+
+nav {
+    position: absolute;
+    text-align: center;
+    margin-left: 24%;
+}
+
+nav li {
+    display: inline;
+    margin-left: 50px;
+}
+   
+
+nav a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #DAA520;
+    text-decoration: underline;
+    font-size: 42px;
+}
+
+.imagem-principal {
+    width: 50%;
+    height: 35%;
+    margin-top: 15px;
+    margin-left: 25%;
+    opacity: 1;
+    transition: 450ms;
+    box-shadow: 0 0 15px 15px;
+  
+}
+
+.imagem-principal:hover {
+    opacity: 0.4
+}
+
+.principal p {
+    margin: 0 0 1em;
+    text-align: center;
+    font-size: 24px;
+}
+
+.mapa {
+	padding: 3m 0;
+}
+
+h4 {
+    text-align: center;
+    font-size: 55px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+    box-shadow: 0 0 3px 3px;
+}
+
+/*Produtos*/
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+    box-shadow: 0 0 3px 3px;
+}
+
+.produtos li:hover {
+	border-color: #DAA520;
+}
+
+.produtos li:active {
+	border-color: #999999;	
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produtos-descricao {
+	font-size: 18px;
+}
+
+.imagem-produtos {
+    width: 250px;
+    height: 250px;
+}
+
+/*Sobre*/
+
+h3 {
+    text-align: center;
+    font-size: 85px;
+    color: #FFFFFF;
+}
+
+.sobre p {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+footer {
+    background: url("bg.jpg");
+}
+
+footer p, main h3 {
+    text-align:center;
+}
+
+.imagem-rodape {
+    width: 177px;
+    height: 200px;
+}
+
+.copyright {
+    font-size: 19px;
+    color: #FFFFFF;
+    margin: 10px 0;
+    padding: 20px 0;
+    font-weight: bold;
+}
